@@ -1,34 +1,33 @@
-
-body{
-    font-family : "Trebuchet MS","Verdana" , "sans serif";
+body {
+    font-family: "Trebuchet MS", "Verdana", "sans serif";
     font-size: 10px;
 }
 
-.container{
-    display:flex;
+.container {
+    display: flex;
     justify-content: center;
 }
 
-.form{
+.form {
     font-size: 1.5em;
     border: 0.3px solid;
     padding: 0px;
     border-radius: 3px;
 }
 
-.form > header {
+.form>header {
     margin: 0px;
     display: block;
     background-color: red;
     padding: 1em;
-    color:aliceblue;
+    color: aliceblue;
 }
 
-.form > header > h1 {
+.form>header>h1 {
     margin: 0px;
 }
 
-.form > footer {
+.form>footer {
     background-color: black;
     padding: 1em;
     display: flex;
@@ -41,7 +40,7 @@ body{
     padding: 2em;
 }
 
-.form > section > section {
+.form>section>section {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
@@ -55,11 +54,11 @@ body{
     width: 8em;
 }
 
-.required-failed{
+.required-failed {
     border-color: red;
 }
 
-#dialog{
+#dialog {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -67,20 +66,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.dialog-form{
+.dialog-form {
     width: 400px;
     height: 200px;
     background-color: aliceblue;
 }
 
-td{
+td {
     text-align: center;
     border: 2px solid;
 }
 
-#datos{
+#datos {
     background-color: aqua;
 }
